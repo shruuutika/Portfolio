@@ -428,6 +428,7 @@ body{
 .progress.bootstrap .progress-right .progress-bar {
   animation: loading-2 1.8s linear forwards 1.8s;
 }
+
 @keyframes loading-1 {
   0% {
     -webkit-transform: rotate(0deg);
@@ -668,6 +669,10 @@ body{
     }
     .progress.blue{
       margin-left: 5rem;
+    }
+    .fields{
+      display: flex;
+      justify-content: center;
     }
     .card1{
       margin-top: 2rem;
