@@ -601,18 +601,19 @@ body{
 @media screen and (max-width:768px) {
     .text1{
         font-size: 20px;
-        
+    }
+    
+    .name{
+      margin-right: 1rem;
+    }
+    .navbar-toggler{
+      margin-left: 1rem;
     }
     .para1{
         font-size: 15px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
     .para{
         font-size: 18px;
-        display: flex;
-        justify-content: center;
     }
     .text{
         font-size: 35px;
@@ -622,7 +623,7 @@ body{
           width: 0%;
         }
         to {
-          width: 75%;
+          width: 70%;
         }
       }
     .back{
@@ -643,8 +644,11 @@ body{
     }
     
     .card-width{
-        margin-top: 28rem;
-        padding-bottom: 2rem;
+        margin-top: 33rem;
+        padding-bottom: 4rem;
+        /* margin-left: 1rem; */
+        display: flex;
+        justify-content: center;
     }
     .box2{
         width: 17rem;
